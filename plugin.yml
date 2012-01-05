@@ -1,0 +1,12 @@
+name: FireRage
+main: me.HariboPenguin.FireRage.FireRage
+version: 1.1
+description: >
+             Set fire to your enemies!
+commands:
+  ignite:
+      description: Set fire to a player.
+      usage: /ignite [player]
+  ext:
+      description: Extinguish a player.
+      usage: /ext [player]
