@@ -1,0 +1,5 @@
+FireRage v1 -- Help
+
+Commands:
+/ignite [Player] - Sets a player on fire - If you don't specify a player you will set yourself on fire.
+/ext [Player] = Extinguishes a player - If you don't specify a player you will set yourself on fire.
