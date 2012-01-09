@@ -10,3 +10,6 @@ commands:
   ext:
       description: Extinguish a player.
       usage: /ext [player]
+  frhelp:
+      description: Display the help menu.
+      usage: /frhelp

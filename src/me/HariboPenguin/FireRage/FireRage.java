@@ -11,6 +11,7 @@ public class FireRage extends JavaPlugin {
 	public final Logger log = Logger.getLogger("Minecraft");
 	private FireRageIgniteCommandExecutor IgniteExecutor;
 	private FireRageExtinguishCommandExecutor ExtinguishExecutor;
+	private FireRageHelpCommandExecutor HelpExecutor;
 	
 	
 	@Override
@@ -29,6 +30,9 @@ public class FireRage extends JavaPlugin {
 		
 		ExtinguishExecutor = new FireRageExtinguishCommandExecutor(this);
 		getCommand("ext").setExecutor(ExtinguishExecutor);
+		
+		HelpExecutor = new FireRageHelpCommandExecutor(this);
+		getCommand("frhelp").setExecutor(HelpExecutor);
 		
 		PluginDescriptionFile pdfFile = this.getDescription();
 		this.log.info(pdfFile.getName() + " version " + pdfFile.getVersion() + " has been enabled!");
